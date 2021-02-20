@@ -216,6 +216,10 @@ hr.newhr2 {
 .p1 {
   height: auto;
   width: 234px;
+  width: 20%;
+  display: flex;
+  flex-wrap: wrap;
+  border: 20px solid white;
 }
 
 .small-width {
@@ -314,13 +318,6 @@ aside {
   flex-wrap: wrap;
 }
 
-.p1 {
-  width: 20%;
-  display: flex;
-  flex-wrap: wrap;
-  border: 20px solid white;
-}
-
 .flex-left-container {
   display: flex;
   justify-content: space-around;
@@ -373,7 +370,7 @@ aside {
 
 .sug-right {
   width: 300px;
-  padding: 0 10px; 
+  padding: 0 10px;
   margin-top: 31px;
   display: flex;
   flex-direction: column;
