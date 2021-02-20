@@ -106,7 +106,7 @@ a:hover {
   text-decoration: underline;
 }
 
-#space { 
+#space {
   font-size: 14.25px;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-weight: 700;
@@ -327,7 +327,7 @@ aside {
 
 .sub-box {
   width: 25.33%;
-  border: 1px solid #ccc; 
+  border: 1px solid #ccc;
   margin-top: 40px;
   padding: 15px;
   background-color: white;
@@ -335,7 +335,7 @@ aside {
 
 .story {
   width: 33.33%;
-  margin-left: 0px;
+  margin-left: 0;
 }
 
 .align-left {
@@ -360,7 +360,7 @@ aside {
   width: 100%;
 }
 
-.color-black { 
+.color-black {
   color: black;
 }
 
