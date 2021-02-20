@@ -1,12 +1,17 @@
 
 @font-face {
-  font-family: 'nyt-franklin';
-  src: url('/fonts/family/franklin/franklin-italic-700.aff6e05b305e7cf33e1f757735045876.woff2') format('woff2'),
+  font-family:
+  'nyt-franklin';
+  src:
+  url('/fonts/family/franklin/franklin-italic-700.aff6e05b305e7cf33e1f757735045876.woff2') format('woff2'),
   url('/fonts/family/franklin/franklin-italic-700.62ad1d675b21069c67430cd671b66f38.woff') format('woff'),
   url('/fonts/family/franklin/franklin-italic-700.a5d605ccf65e790384c19126565ee1f6.ttf') format('truetype');
-  font-style: italic;
-  font-weight: 700;
-  font-display: swap;
+  font-style:
+  italic;
+  font-weight:
+  700;
+  font-display:
+  swap;
   }
 
 @font-face {
@@ -31,13 +36,20 @@
 /* positioning nav-bar-using flex*/
 
 .flex-nav {
-  display: flex;
-  position: fixed;
-  top :0;
-  z-index: 1;
-  align-items: center;
-  background-color: white;
-  border: 1px solid #ccc;
+  display:
+  flex;
+  position:
+  fixed;
+  top :
+  0;
+  z-index: 
+  1;
+  align-items:
+  center;
+  background-color:
+white;
+  border:
+  1px solid #ccc;
   width: 100% !important;
   justify-content: space-between;
 
