@@ -1,9 +1,8 @@
 @font-face {
-  font-family:'nyt-franklin';
-  src: url('/fonts/family/franklin/franklin-italic-700.aff6e05b305e7cf33e1f757735045876.woff2') format('woff2'), url('/fonts/family/franklin/franklin-italic-700.62ad1d675b21069c67430cd671b66f38.woff') format('woff'), url('/fonts/family/franklin/franklin-italic-700.a5d605ccf65e790384c19126565ee1f6.ttf') format('truetype');
+  font-family: 'nyt-franklin';
+  src: url('/fonts/family/franklin/franklin-italic-700.aff6e05b305e7cf33e1f757735045876.woff2')format('woff2'), url('/fonts/family/franklin/franklin-italic-700.62ad1d675b21069c67430cd671b66f38.woff')format('woff'), url('/fonts/family/franklin/franklin-italic-700.a5d605ccf65e790384c19126565ee1f6.ttf')format('truetype');
   font-style: italic;
   font-weight: 700;
-  font-display: swap;
 }
 
 @font-face {
@@ -11,15 +10,13 @@
   src: url('/fonts/family/franklin/franklin-normal-500.d6c06a3d84a57100edad5bf9b84ff739.woff2') format('woff2'), url('/fonts/family/franklin/franklin-normal-500.414758de098dc644b688afa031d35f9b.woff') format('woff'), url('/fonts/family/franklin/franklin-normal-500.1b6dc8a3d86d2a28b825482c9497a633.ttf') format('truetype');
   font-style: normal;
   font-weight: 500;
-  font-display: swap;
 }
 
 @font-face {
   font-family: 'nyt-imperial';
-  src: url('/fonts/family/imperial/imperial-normal-400.2531995fefd3b997f9c4d564ebe89268.woff2') format('woff2'), url('/fonts/family/imperial/imperial-normal-400.e4d8bd522cfcbc36c1b2368baeb54c32.woff') format('woff'), url('/fonts/family/imperial/imperial-normal-400.a5270edf37ca346207a3a6ff637a022a.ttf') format('truetype');
+  src: url('/fonts/family/imperial/imperial-normal-400.2531995fefd3b997f9c4d564ebe89268.woff2')format('woff2'), url('/fonts/family/imperial/imperial-normal-400.e4d8bd522cfcbc36c1b2368baeb54c32.woff')format('woff'), url('/fonts/family/imperial/imperial-normal-400.a5270edf37ca346207a3a6ff637a022a.ttf') format('truetype');
   font-style: normal;
   font-weight: 400;
-  font-display: swap;
 }
 
 .flex-nav {
@@ -48,22 +45,10 @@
   left: 10px;
 }
 
-.nav-left {
-  width: fit-content;
-}
-
 .nav-right {
   display: inline-block;
   position: relative;
   right: 20px;
-}
-
-#space {
-  display: inline-block;
-  position: relative;
-  bottom: 7px;
-  left: 20px;
-  padding-bottom: 0;
 }
 
 .center-content {
@@ -88,8 +73,8 @@
   font-style: italic;
 }
 
-html,
-body,
+html, 
+body, 
 main {
   height: 100%;
   margin: 0;
@@ -105,7 +90,7 @@ body {
   width: 100%;
   line-height: 1;
   color: #666;
-  font-family: nyt-franklin,helvetica,arial,sans-serif;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
 }
 
 hr {
@@ -123,10 +108,15 @@ a:hover {
 
 #space { 
   font-size: 14.25px;
-  font-family: nyt-franklin,helvetica,arial,sans-serif;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-weight: 700;
   letter-spacing: 0.7px;
   line-height: 19px;
+  display: inline-block;
+  position: relative;
+  bottom: 7px;
+  left: 20px;
+  padding-bottom: 0;
 }
 
 .nav-buttons {
