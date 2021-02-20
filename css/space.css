@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'nyt-franklin';
-  src: url('/fonts/family/franklin/franklin-italic-700.aff6e05b305e7cf33e1f757735045876.woff2')format('woff2'), url('/fonts/family/franklin/franklin-italic-700.62ad1d675b21069c67430cd671b66f38.woff')format('woff'), url('/fonts/family/franklin/franklin-italic-700.a5d605ccf65e790384c19126565ee1f6.ttf')format('truetype');
+  src: url('/fonts/family/franklin/franklin-italic-700.aff6e05b305e7cf33e1f757735045876.woff2') format('woff2'), url('/fonts/family/franklin/franklin-italic-700.62ad1d675b21069c67430cd671b66f38.woff') format('woff'), url('/fonts/family/franklin/franklin-italic-700.a5d605ccf65e790384c19126565ee1f6.ttf') format('truetype');
   font-style: italic;
   font-weight: 700;
 }
@@ -14,7 +14,7 @@
 
 @font-face {
   font-family: 'nyt-imperial';
-  src: url('/fonts/family/imperial/imperial-normal-400.2531995fefd3b997f9c4d564ebe89268.woff2')format('woff2'), url('/fonts/family/imperial/imperial-normal-400.e4d8bd522cfcbc36c1b2368baeb54c32.woff')format('woff'), url('/fonts/family/imperial/imperial-normal-400.a5270edf37ca346207a3a6ff637a022a.ttf') format('truetype');
+  src: url('/fonts/family/imperial/imperial-normal-400.2531995fefd3b997f9c4d564ebe89268.woff2') format('woff2'), url('/fonts/family/imperial/imperial-normal-400.e4d8bd522cfcbc36c1b2368baeb54c32.woff') format('woff'), url('/fonts/family/imperial/imperial-normal-400.a5270edf37ca346207a3a6ff637a022a.ttf') format('truetype');
   font-style: normal;
   font-weight: 400;
 }
@@ -68,20 +68,20 @@
 
 .font-styling {
   color: #121212;
-  font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
   font-weight: 700;
   font-style: italic;
 }
 
-html, 
-body, 
+html,
+body,
 main {
   height: 100%;
   margin: 0;
-  margin-top: 0px;
-  margin-right: 0px;
-  margin-bottom: 0px;
-  margin-left: 0px;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
   color: #333;
   background-color: white;
 }
@@ -194,7 +194,7 @@ hr.newhr2 {
 }
 
 .hr.subscribe-div {
-    border: 1px solid red;
+  border: 1px solid red;
 }
 
 .subscribe-div {
@@ -202,11 +202,10 @@ hr.newhr2 {
   margin-top: 30px;
   margin-bottom: 30px;
   padding: 0;
-  height: fit-content;
   font-size: 15px;
-  line-height: 19px;;
+  line-height: 19px;
   font-weight: 700;
-  font-family: nyt-franklin;
+  font-family: nyt-franklin, sans-serif;
 }
 
 .heading-style {
@@ -219,26 +218,26 @@ hr.newhr2 {
   width: 234px;
 }
 
-.small-width { 
+.small-width {
   width: 200px;
   height: auto;
   text-align: left;
 }
 
 .larry {
-  font-size: .875rem;
+  font-size: 0.875rem;
   line-height: 18px;
   line-height: 1.125rem;
   font-weight: 500;
   font-style: normal;
   color: rgb(51, 51, 51);
-  font-family: nyt-franklin;
+  font-family: nyt-franklin, sans-serif;
 }
 
 #img-telesize {
-  width: 600px ;
+  width: 600px;
   height: 400px;
-  margin: 0px;
+  margin: 0;
 }
 
 #zero-margin {
@@ -251,12 +250,12 @@ hr.newhr2 {
 #version-text {
   font-size: small;
   color: rgb(102, 102, 102);
-  font-style: bold;
+  font-weight: bold;
 }
 
 .top-main-box {
   border-top: medium none;
-  border-top-color: currentcolor;
+  border-top-color: currentColor;
   border-top-style: none;
   border-top-width: medium;
 }
@@ -266,17 +265,17 @@ hr.newhr2 {
 }
 
 .grid-section {
-  color:  black;
+  color: black;
   margin-top: 50px;
   margin-left: 50px;
   border-top: 1px solid black;
   width: 990px;
- }
+}
 
 .font-adj {
   font-size: 11px;
   font-weight: 800;
-  letter-spacing: .05em;
+  letter-spacing: 0.05em;
 }
 
 #top-main-box {
@@ -287,8 +286,6 @@ hr.newhr2 {
   margin: 5px;
 }
 
-/*positiion-related */
-
 #pos-dennis {
   display: inline-block;
   position: relative;
@@ -296,12 +293,10 @@ hr.newhr2 {
   margin-bottom: 20px;
 }
 
-/* positioning aside */
-
 aside {
   width: 200px;
-  margin: auto auto auto 10px; 
-  display: flexbox;
+  margin: auto auto auto 10px;
+  display: flex;
 }
 
 .inflation-main {
@@ -311,7 +306,7 @@ aside {
   font-size: 14px;
   line-height: 17px;
   font-weight: 300;
-  color: #000000;
+  color: #000;
 }
 
 .inflation-container {
@@ -373,7 +368,7 @@ aside {
 }
 
 .main-suggestion-container {
-display: flex;
+  display: flex;
 }
 
 .sug-right {
@@ -412,6 +407,7 @@ display: flex;
 
 li {
   list-style-type: none;
+  margin-bottom: 10px;
 }
 
 .footer-main-container {
@@ -426,17 +422,13 @@ li {
 
 .flex-container-footer {
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
 }
 
 .set-font {
   font-size: 13px;
   font-weight: 500;
   color: black;
-}
-
-li {
-  margin-bottom: 10px;
 }
 
 .company-flex-container {
@@ -454,7 +446,7 @@ li {
   margin-left: 10px;
 }
 
-.company-info { 
+.company-info {
   margin-top: 30px;
   width: 1200px;
   margin-left: auto;
