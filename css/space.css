@@ -457,3 +457,7 @@ li {
   margin: 10px auto;
   width: 1150px;
 }
+form {
+  width: 700px;
+  margin: 20px auto;
+}
