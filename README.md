@@ -1,10 +1,11 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# project1
+# Porject: floating and positioning elements 
 
 > getting use to git and github
 
-![screenshot](./
+![screenshot]
+![Alt text](/relative/img/screenshot.png?raw=true "screen shot of the page")
 
 
 Additional description about the project and its features.
