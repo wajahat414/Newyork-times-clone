@@ -4,8 +4,7 @@
 
 > getting use to git and github
 
-![screenshot]
-![Alt text](//img/screenshot.png?raw=true "screen shot of the page")
+![screenshot](/relative/img/screenshot.png?raw=true "Optional Title")
 
 
 Additional description about the project and its features.
