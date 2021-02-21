@@ -5,7 +5,7 @@
 > getting use to git and github
 
 ![screenshot]
-![Alt text](/relative/img/screenshot.png?raw=true "screen shot of the page")
+![Alt text](//img/screenshot.png?raw=true "screen shot of the page")
 
 
 Additional description about the project and its features.
