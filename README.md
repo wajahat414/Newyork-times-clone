@@ -2,7 +2,7 @@
 
 # Porject: floating and positioning elements 
 
-> getting use to git and github
+> developed new york times clone
 
 ![screenshot](/img/screenshot.png?raw=true "Optional Title")
 
