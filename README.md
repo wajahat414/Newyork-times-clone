@@ -4,7 +4,7 @@
 
 > getting use to git and github
 
-![screenshot](/relative/img/screenshot.png?raw=true "Optional Title")
+![screenshot](/img/screenshot.png?raw=true "Optional Title")
 
 
 Additional description about the project and its features.
