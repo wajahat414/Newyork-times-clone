@@ -1,0 +1,459 @@
+@font-face {
+  font-family: 'nyt-franklin';
+  src: url('/fonts/family/franklin/franklin-italic-700.aff6e05b305e7cf33e1f757735045876.woff2') format('woff2'), url('/fonts/family/franklin/franklin-italic-700.62ad1d675b21069c67430cd671b66f38.woff') format('woff'), url('/fonts/family/franklin/franklin-italic-700.a5d605ccf65e790384c19126565ee1f6.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'nyt-franklin';
+  src: url('/fonts/family/franklin/franklin-normal-500.d6c06a3d84a57100edad5bf9b84ff739.woff2') format('woff2'), url('/fonts/family/franklin/franklin-normal-500.414758de098dc644b688afa031d35f9b.woff') format('woff'), url('/fonts/family/franklin/franklin-normal-500.1b6dc8a3d86d2a28b825482c9497a633.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'nyt-imperial';
+  src: url('/fonts/family/imperial/imperial-normal-400.2531995fefd3b997f9c4d564ebe89268.woff2') format('woff2'), url('/fonts/family/imperial/imperial-normal-400.e4d8bd522cfcbc36c1b2368baeb54c32.woff') format('woff'), url('/fonts/family/imperial/imperial-normal-400.a5270edf37ca346207a3a6ff637a022a.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+}
+
+.flex-nav {
+  display: flex;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  align-items: center;
+  background-color: white;
+  border: 1px solid #ccc;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.nav-size {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 40px;
+}
+
+.same-margin-padding {
+  display: inline-block;
+  position: relative;
+  top: 5px;
+  left: 10px;
+}
+
+.nav-right {
+  display: inline-block;
+  position: relative;
+  right: 20px;
+}
+
+.center-content {
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+  margin-top: 100px;
+}
+
+#top-heading {
+  font-size: 2.5rem;
+  line-height: 3rem;
+  display: inline-block;
+  width: 600px;
+  text-align: left;
+}
+
+.font-styling {
+  color: #121212;
+  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+html,
+body,
+main {
+  height: 100%;
+  margin: 0;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  color: #333;
+  background-color: white;
+}
+
+body {
+  width: 100%;
+  line-height: 1;
+  color: #666;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+}
+
+hr {
+  border: 1px solid black;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#space {
+  font-size: 14.25px;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.7px;
+  line-height: 19px;
+  display: inline-block;
+  position: relative;
+  bottom: 7px;
+  left: 20px;
+  padding-bottom: 0;
+}
+
+.nav-buttons {
+  white-space: nowrap;
+  vertical-align: middle;
+  background-color: #567b95;
+  border: 1px solid #326891;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 11px;
+  line-height: 11px;
+  font-weight: 700;
+  padding: 11px 12px 8px;
+}
+
+#read-comments-button {
+  width: 330px;
+  padding: 10px 0 10px 0;
+}
+
+#social-img {
+  float: right;
+  padding-top: 5px;
+}
+
+figcaption {
+  text-align: left;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  color: #666;
+}
+
+.author-text {
+  color: #888;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+  line-height: 1.125rem;
+  letter-spacing: 0.01em;
+}
+
+#dennis {
+  font-size: 15px;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-weight: 700;
+  color: #333;
+}
+
+.small-font-size {
+  font-size: small;
+}
+
+.section-1 {
+  margin-left: calc((100% - 600px) / 2);
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  font-size: 20px;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 30px;
+  max-width: 100%;
+  width: 600px;
+  color: #333;
+  vertical-align: baseline;
+}
+
+hr.newhr {
+  width: 100px;
+  border-top: 1px solid #ccc;
+  border-bottom: white;
+  border-left: white;
+  border-right: white;
+}
+
+hr.newhr2 {
+  border-top: 1px solid black;
+  margin: 20px 0 14px 0;
+}
+
+.hr.subscribe-div {
+  border: 1px solid red;
+}
+
+.subscribe-div {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 0;
+  font-size: 15px;
+  line-height: 19px;
+  font-weight: 700;
+  font-family: nyt-franklin, sans-serif;
+}
+
+.heading-style {
+  color: rgb(51, 51, 51);
+  font-size: 20px;
+}
+
+.p1 {
+  height: auto;
+  width: 234px;
+  width: 20%;
+  display: flex;
+  flex-wrap: wrap;
+  border: 20px solid white;
+}
+
+.small-width {
+  width: 200px;
+  height: auto;
+  text-align: left;
+}
+
+.larry {
+  font-size: 0.875rem;
+  line-height: 18px;
+  line-height: 1.125rem;
+  font-weight: 500;
+  font-style: normal;
+  color: rgb(51, 51, 51);
+  font-family: nyt-franklin, sans-serif;
+}
+
+#img-telesize {
+  width: 600px;
+  height: 400px;
+  margin: 0;
+}
+
+#zero-margin {
+  display: block;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+#version-text {
+  font-size: small;
+  color: rgb(102, 102, 102);
+  font-weight: bold;
+}
+
+.top-main-box {
+  border-top: medium none;
+  border-top-color: currentColor;
+  border-top-style: none;
+  border-top-width: medium;
+}
+
+.sug-text-right {
+  float: right;
+}
+
+.grid-section {
+  color: black;
+  margin-top: 50px;
+  margin-left: 50px;
+  border-top: 1px solid black;
+  width: 990px;
+}
+
+.font-adj {
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+}
+
+#top-main-box {
+  text-align: right;
+  height: 50px;
+  width: 100%;
+  padding: 5px;
+  margin: 5px;
+}
+
+#pos-dennis {
+  display: inline-block;
+  position: relative;
+  left: 375.5px;
+  margin-bottom: 20px;
+}
+
+aside {
+  width: 200px;
+  margin: auto auto auto 10px;
+  display: flex;
+}
+
+.inflation-main {
+  width: 1000px;
+  margin: auto;
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 300;
+  color: #000;
+}
+
+.inflation-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-left-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border-bottom: 1px solid black;
+}
+
+.sub-box {
+  width: 25.33%;
+  border: 1px solid #ccc;
+  margin-top: 40px;
+  padding: 15px;
+  background-color: white;
+}
+
+.story {
+  width: 33.33%;
+  margin-left: 0;
+}
+
+.align-left {
+  display: block;
+  position: relative;
+  right: 370px;
+  top: 5px;
+  font-weight: bold;
+  color: black;
+  align-self: baseline;
+  text-align: left;
+}
+
+#top-suggestion-text {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin: 20px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.color-black {
+  color: black;
+}
+
+.main-suggestion-container {
+  display: flex;
+}
+
+.sug-right {
+  width: 300px;
+  padding: 0 10px;
+  margin-top: 31px;
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-item-align {
+  width: 100%;
+  padding: 10px 0;
+  border-top: 1px solid #666;
+}
+
+.aside-positioning {
+  display: flex;
+  flex-wrap: wrap;
+  float: right;
+  width: 300px;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+
+.flex-wrap-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-around;
+}
+
+.flex-item {
+  width: 25%;
+}
+
+li {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+.footer-main-container {
+  width: 100%;
+  background-color: white;
+}
+
+.f-main-sub-section {
+  width: 1200px;
+  margin: auto;
+}
+
+.flex-container-footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.set-font {
+  font-size: 13px;
+  font-weight: 500;
+  color: black;
+}
+
+.company-flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.font-comp {
+  font-size: 11px;
+  color: #666;
+}
+
+.margin-left {
+  margin-left: 10px;
+}
+
+.company-info {
+  margin-top: 30px;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 1px solid #666;
+}
+
+.flex-logo-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px auto;
+  width: 1150px;
+}
